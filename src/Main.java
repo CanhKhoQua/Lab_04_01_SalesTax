@@ -1,14 +1,11 @@
-import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
         double taxPrice=0;
+        double price=500;
 
-        Scanner myObj = new Scanner(System.in);
-        System.out.println("Enter the price of an item");
-
-        double price = myObj.nextDouble();
         taxPrice = price * 5/100;
+        System.out.println("The price is: " + price);
         System.out.println("Sales tax is: " + taxPrice);
 
     }
